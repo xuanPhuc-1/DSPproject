@@ -10,7 +10,7 @@ class VoiceActivityDetector():
         self.sample_window = 0.02 #20 ms
         self.sample_overlap = 0.01 #10ms
         self.speech_window = 0.5 #half a second
-        self.speech_energy_threshold = 0.6 #60% of energy in voice band
+        self.speech_energy_threshold = 0.2 #50% of energy in voice band
         self.speech_start_band = 300
         self.speech_end_band = 3000
            
@@ -154,4 +154,27 @@ class VoiceActivityDetector():
         detected_windows = detected_windows.reshape(int(len(detected_windows)/2),2)
         detected_windows[:,1] = self._smooth_speech_detection(detected_windows)
         return detected_windows
+    def save_only_speech_file(self, outputfile, speech_labels):
+        #crop the file at speech labels and save to a output file
+        data = self.data
+        for label in speech_labels:
+            start = int(label['speech_begin'] * self.rate)
+            end = int(label['speech_end'] * self.rate)
+            wf.write(outputfile, self.rate, data[start:end])
+        return self
+    
+        
+    
+if __name__ == "__main__":
+    # Example:
+    #v = VoiceActivityDetector('test.m4a')
+    v = VoiceActivityDetector('test.wav')
+    raw_detection = v.detect_speech()
+    speech_labels = v.convert_windows_to_readible_labels(raw_detection)
+    print(speech_labels)
+    v.plot_detected_speech_regions()
+    #crop the original sound file to get all the speeches alone then save it to a new file
+    v.save_only_speech_file('test_speech.wav', speech_labels)
+    
+    
  
