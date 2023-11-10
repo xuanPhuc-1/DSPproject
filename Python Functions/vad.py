@@ -168,13 +168,13 @@ class VoiceActivityDetector():
 if __name__ == "__main__":
     # Example:
     #v = VoiceActivityDetector('test.m4a')
-    v = VoiceActivityDetector('test.wav')
+    v = VoiceActivityDetector('test2.wav')
     raw_detection = v.detect_speech()
     speech_labels = v.convert_windows_to_readible_labels(raw_detection)
     print(speech_labels)
     v.plot_detected_speech_regions()
     #crop the original sound file to get all the speeches alone then save it to a new file
-    v.save_only_speech_file('test_speech.wav', speech_labels)
+    v.save_only_speech_file('test_speech2.wav', speech_labels)
     
     
  
