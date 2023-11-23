@@ -13,161 +13,261 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#centralwidget{
+background-color:	rgb(218, 232, 252)}</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="btnFFT">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>80</y>
-      <width>191</width>
+      <x>60</x>
+      <y>110</y>
+      <width>310</width>
       <height>181</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:20px;
+background-color: rgb(255, 255, 255);
+border: 2px solid black;</string>
+    </property>
     <property name="text">
-     <string>FFT</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="btnLPF">
     <property name="geometry">
      <rect>
-      <x>310</x>
-      <y>80</y>
-      <width>191</width>
+      <x>420</x>
+      <y>110</y>
+      <width>310</width>
       <height>181</height>
      </rect>
     </property>
-    <property name="text">
-     <string>LPF</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="btnMDF">
-    <property name="geometry">
-     <rect>
-      <x>560</x>
-      <y>80</y>
-      <width>191</width>
-      <height>181</height>
-     </rect>
+    <property name="styleSheet">
+     <string notr="true">border-radius:20px;
+background-color: rgb(255, 255, 255);
+border: 2px solid black;</string>
     </property>
     <property name="text">
-     <string>MDF</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="btnWVL">
     <property name="geometry">
      <rect>
-      <x>310</x>
+      <x>420</x>
       <y>310</y>
-      <width>191</width>
+      <width>310</width>
       <height>181</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:20px;
+background-color: rgb(255, 255, 255);
+border: 2px solid black;</string>
+    </property>
     <property name="text">
-     <string>WAVELET</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="btnVAD">
     <property name="geometry">
      <rect>
-      <x>40</x>
+      <x>60</x>
       <y>310</y>
-      <width>191</width>
+      <width>310</width>
       <height>181</height>
      </rect>
     </property>
-    <property name="text">
-     <string>VAD</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="btnEVA">
-    <property name="geometry">
-     <rect>
-      <x>560</x>
-      <y>310</y>
-      <width>191</width>
-      <height>181</height>
-     </rect>
+    <property name="styleSheet">
+     <string notr="true">border-radius:20px;
+background-color: rgb(255, 255, 255);
+border: 2px solid black;</string>
     </property>
     <property name="text">
-     <string>EVALUATE</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="lbFFT">
     <property name="geometry">
      <rect>
       <x>80</x>
-      <y>270</y>
-      <width>121</width>
-      <height>16</height>
+      <y>150</y>
+      <width>281</width>
+      <height>41</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
     <property name="text">
-     <string>Fast Fourier Transform</string>
+     <string>Fast Fourier Transform (FFT)</string>
     </property>
    </widget>
-   <widget class="QLabel" name="lbLPF">
+   <widget class="QLabel" name="lbFFT_2">
     <property name="geometry">
      <rect>
-      <x>370</x>
-      <y>270</y>
-      <width>121</width>
-      <height>16</height>
+      <x>490</x>
+      <y>150</y>
+      <width>201</width>
+      <height>41</height>
      </rect>
     </property>
-    <property name="text">
-     <string>Low Pass Filter</string>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
     </property>
-   </widget>
-   <widget class="QLabel" name="lbMDF">
-    <property name="geometry">
-     <rect>
-      <x>630</x>
-      <y>270</y>
-      <width>121</width>
-      <height>16</height>
-     </rect>
+    <property name="styleSheet">
+     <string notr="true"/>
     </property>
     <property name="text">
-     <string>Median Filter</string>
+     <string>Low Pass Filter (LPF)</string>
     </property>
    </widget>
-   <widget class="QLabel" name="lbVAD">
+   <widget class="QLabel" name="lbFFT_3">
     <property name="geometry">
      <rect>
       <x>80</x>
-      <y>500</y>
-      <width>121</width>
-      <height>16</height>
+      <y>340</y>
+      <width>281</width>
+      <height>41</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
     </property>
     <property name="text">
-     <string>Voice Active Detection</string>
+     <string>Voice Activity Detector (VAD)</string>
     </property>
    </widget>
-   <widget class="QLabel" name="lbWAV">
+   <widget class="QLabel" name="lbFFT_4">
     <property name="geometry">
      <rect>
-      <x>390</x>
-      <y>500</y>
-      <width>121</width>
-      <height>16</height>
+      <x>540</x>
+      <y>340</y>
+      <width>91</width>
+      <height>41</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
     </property>
     <property name="text">
      <string>Wavelet</string>
     </property>
    </widget>
-   <widget class="QLabel" name="lbEVA">
+   <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>630</x>
-      <y>500</y>
-      <width>121</width>
-      <height>16</height>
+      <x>80</x>
+      <y>190</y>
+      <width>271</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="text">
-     <string>Evaluation</string>
+     <string>A method for efficiently computing the discrete Fourier transform.</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>190</y>
+      <width>271</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A filter that allows signals with a frequency lower than a certain cutoff frequency to pass through, while attenuating frequencies higher than the cutoff.</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>390</y>
+      <width>271</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A system that identifies the presence or absence of human speech in an audio signal. It is commonly used in speech processing applications to distinguish between speech and non-speech segments.</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>390</y>
+      <width>271</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A mathematical tool used in signal processing and image compression. Wavelets are particularly effective in representing signals with sharp changes, such as audio signals and images.</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>20</y>
+      <width>561</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>22</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Denoising Data Methods Simulation</string>
     </property>
    </widget>
   </widget>
