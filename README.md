@@ -85,6 +85,22 @@ Liệt kê thông tin liên hệ, như email hoặc các kênh truyền thông x
 
 Ghi chú về các thay đổi lớn trong dự án, theo thời gian.
 
-## Đọc Thêm
+## Thư Viện Được Sử Dụng
 
-Liên kết đến bất kỳ tài liệu bổ sung hoặc tài nguyên nào khác.
+![numpy](https://www.google.com/search?q=numpy+icon&sca_esv=585547380&rlz=1C1KNTJ_enVN1075VN1075&tbm=isch&sxsrf=AM9HkKn8gHiMGvoaSt6qq5oghAViA3vbYA:1701074290876&source=lnms&sa=X&ved=2ahUKEwiBh-DG4-OCAxUQ1TQHHbAMA6cQ_AUoAXoECAIQAw#imgrc=_USeIIo97vUGrM)
+![PyQt5](https://link-to-pyqt5-icon)
+![PyQt5-Qt5](https://link-to-pyqt5-qt5-icon)
+![PyQt5-sip](https://link-to-pyqt5-sip-icon)
+![pyqtgraph](https://link-to-pyqtgraph-icon)
+![PyWavelets](https://link-to-pywavelets-icon)
+![setuptools](https://link-to-setuptools-icon)
+
+Danh sách các thư viện và phiên bản tương ứng:
+
+- numpy 1.24.4
+- PyQt5 5.15.10
+- PyQt5-Qt5 5.15.2
+- PyQt5-sip 12.13.0
+- pyqtgraph 0.13.3
+- PyWavelets 1.4.1
+- setuptools 41.2.0
