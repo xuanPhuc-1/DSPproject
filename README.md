@@ -36,25 +36,25 @@ Hướng dẫn cài đặt và chạy dự án trên máy cục bộ. Dưới đ
 
 1. Clone dự án về máy của bạn:
 
-   ```powershell
+   ```bash
    git clone https://github.com/xuanPhuc-1/DSPproject
    ```
 
 2. Di chuyển vào thư mục dự án:
 
-   ```powershell
+   ```bash
    cd DSPproject
    ```
 
 3. Cài đặt dependencies:
 
-   ```powershell
+   ```bash
    pip install requirement.txt
    ```
 
 4. Chạy dự án:
 
-   ```powershell
+   ```bash
    python FinalMenuWindow.py
    ```
 
