@@ -88,7 +88,7 @@ Ghi chú về các thay đổi lớn trong dự án, theo thời gian.
 ## Thư Viện Được Sử Dụng
 
 ![numpy](https://upload.wikimedia.org/wikipedia/commons/3/31/NumPy_logo_2020.svg)
-![PyQt5](https://en.wikipedia.org/wiki/PyQt#/media/File:Python_and_Qt.svg)
+![PyQt5](https://upload.wikimedia.org/wikipedia/commons/e/e6/Python_and_Qt.svg)
 
 Danh sách các thư viện và phiên bản tương ứng:
 
