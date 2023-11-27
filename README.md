@@ -68,20 +68,13 @@ Note: Nên sử dụng Python 3.6 trở lên. Cụ thể, phiên bản Python đ
 
 Cách sử dụng đã nằm trong báo cáo của dự án.
 
-## Đóng Góp
-
-Liên hệ với chúng tôi nếu bạn muốn đóng góp vào dự án.
-Gửi email đến:
-[20021568@vnu.edu.vn | Ngô Lê Xuân Phúc]
-[20021558@vnu.edu.vn | Nguyễn Phương Nga]
-
-## Giấy Phép
-
-Mô tả loại giấy phép mà dự án sử dụng.
-
 ## Liên Hệ
 
 Liệt kê thông tin liên hệ, như email hoặc các kênh truyền thông xã hội.
+
+- Email: [Ngô Lê Xuân Phúc](mailto:20021568@vnu.edu.vn)
+
+- Email: [Nguyễn Phương Nga](mailto:20021558@vnu.edu.vn)
 
 ## Người Đóng Góp
 
