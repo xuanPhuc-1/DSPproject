@@ -58,27 +58,22 @@ Hướng dẫn cài đặt và chạy dự án trên máy cục bộ. Dưới đ
    python FinalMenuWindow.py
    ```
 
-Chắc chắn rằng bạn đã cài đặt Python và npm trước khi thực hiện các bước trên. Bạn có thể tìm thêm thông tin về cách cài đặt Python cho từng hệ điều hành tại [].
+Chắc chắn rằng bạn đã cài đặt Python trước khi thực hiện các bước trên. Bạn có thể tìm thêm thông tin về cách cài đặt Python cho từng hệ điều hành tại [https://python.org/].
 
 ### Yêu Cầu
 
-Liệt kê các yêu cầu cần thiết để cài đặt và chạy dự án.
-
-### Cài Đặt
-
-Hướng dẫn cài đặt các dependencies và cách cài đặt dự án.
+Note: Nên sử dụng Python 3.6 trở lên. Cụ thể, phiên bản Python được sử dụng trong dự án này là Python 3.8
 
 ## Sử Dụng
 
-Mô tả cách sử dụng dự án hoặc ví dụ cơ bản.
+Cách sử dụng đã nằm trong báo cáo của dự án.
 
 ## Đóng Góp
 
-Hướng dẫn cách đóng góp vào dự án và quy tắc đóng góp.
-
-## Báo Lỗi
-
-Liên kết đến trang báo lỗi nếu có, hoặc hướng dẫn cách báo lỗi.
+Liên hệ với chúng tôi nếu bạn muốn đóng góp vào dự án.
+Gửi email đến:
+[20021568@vnu.edu.vn | Ngô Lê Xuân Phúc]
+[20021558@vnu.edu.vn | Nguyễn Phương Nga]
 
 ## Giấy Phép
 
@@ -90,7 +85,8 @@ Liệt kê thông tin liên hệ, như email hoặc các kênh truyền thông x
 
 ## Người Đóng Góp
 
-Liệt kê tất cả các người đóng góp vào dự án.
+- [Ngô Lê Xuân Phúc](https://github.com/xuanPhuc-1)
+- [Nguyễn Phương Nga](https://github.com/phuongnga28)
 
 ## Lịch Sử Thay Đổi
 
