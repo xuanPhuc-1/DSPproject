@@ -58,7 +58,9 @@ Hướng dẫn cài đặt và chạy dự án trên máy cục bộ. Dưới đ
    python FinalMenuWindow.py
    ```
 
-Chắc chắn rằng bạn đã cài đặt Python trước khi thực hiện các bước trên. Bạn có thể tìm thêm thông tin về cách cài đặt Python cho từng hệ điều hành tại [https://python.org/].
+Chắc chắn rằng bạn đã cài đặt Python trước khi thực hiện các bước trên.
+
+Bạn có thể tìm thêm thông tin về cách cài đặt Python cho từng hệ điều hành tại [https://python.org/].
 
 ### Yêu Cầu
 
