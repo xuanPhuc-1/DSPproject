@@ -232,14 +232,36 @@ class LowPassFilter(object):
         Y = Y[:int(n / 2)]
 
         # plot spectrum to pg1
+        # self.ui.pg1.clear()
+        # self.ui.pg1.plot(frq, abs(Y), pen='b')
+
+        # # Set plot properties
+        # self.ui.pg1.setTitle('Spectrum')
+        # self.ui.pg1.setLabel('left', '|Y(freq)|')
+        # self.ui.pg1.setLabel('bottom', 'Frequency (Hz)')
+        # self.ui.pg1.showGrid(x=True, y=True)
+
+    def plot_input_and_output_signals(self):
+        # plot input signal to pg1
+
+        # update output signal with new parameters
+        self.apply_filter()
+
         self.ui.pg1.clear()
-        self.ui.pg1.plot(frq, abs(Y), pen='b')
+        self.ui.pg1.plot(self.t, self.input_signal,
+                         pen='b', name='Input signal')
+        self.ui.pg1.plot(self.t, self.output_signal,
+                         pen='r', name='Output signal')
+        # self.ui.pg1.plot(self.t, self.input_signal, pen='b')
+        # self.ui.pg1.plot(self.t, self.output_signal, pen='r')
 
         # Set plot properties
-        self.ui.pg1.setTitle('Spectrum')
-        self.ui.pg1.setLabel('left', '|Y(freq)|')
-        self.ui.pg1.setLabel('bottom', 'Frequency (Hz)')
+        self.ui.pg1.setTitle('Input and Output Signals')
+        self.ui.pg1.setLabel('left', 'Amplitude')
+        self.ui.pg1.setLabel('bottom', 'Time')
         self.ui.pg1.showGrid(x=True, y=True)
+        # add legend
+        self.ui.pg1.addLegend()
 
     def plot_frequency_response(self):
         # Tính toán tần số cắt
@@ -272,7 +294,7 @@ class LowPassFilter(object):
 
     def update_ui(self):
         self.plot_frequency_response()
-        self.plot_spectrum()
+        self.plot_input_and_output_signals()
         self.ui.label_fc.setText(str(self.GetFrequency()))
         self.ui.label_fw.setText(str(self.GetWarping()))
 
@@ -323,7 +345,7 @@ class LowPassFilter(object):
             print("CutOff Frequency : " + str(self.GetFrequency()))
             print("Frequency Warping : " + str(self.GetWarping()))
             self.plot_frequency_response()
-            self.plot_spectrum()
+            self.plot_input_and_output_signals()
             self.update_parameters_values_for_sliders()
 
 
