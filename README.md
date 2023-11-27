@@ -87,7 +87,7 @@ Ghi chú về các thay đổi lớn trong dự án, theo thời gian.
 
 ## Thư Viện Được Sử Dụng
 
-![numpy](https://www.google.com/search?q=numpy+icon&sca_esv=585547380&rlz=1C1KNTJ_enVN1075VN1075&tbm=isch&sxsrf=AM9HkKn8gHiMGvoaSt6qq5oghAViA3vbYA:1701074290876&source=lnms&sa=X&ved=2ahUKEwiBh-DG4-OCAxUQ1TQHHbAMA6cQ_AUoAXoECAIQAw#imgrc=_USeIIo97vUGrM)
+![numpy](https://upload.wikimedia.org/wikipedia/commons/3/31/NumPy_logo_2020.svg)
 ![PyQt5](https://link-to-pyqt5-icon)
 ![PyQt5-Qt5](https://link-to-pyqt5-qt5-icon)
 ![PyQt5-sip](https://link-to-pyqt5-sip-icon)
