@@ -32,7 +32,7 @@ Hướng dẫn cài đặt và chạy dự án trên máy cục bộ. Dưới đ
    python3 ./FinalMenuWindow.py
    ```
 
-### Windows
+### Windows (PowerShell)
 
 1. Clone dự án về máy của bạn:
 
