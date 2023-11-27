@@ -62,7 +62,7 @@ Chắc chắn rằng bạn đã cài đặt Python trước khi thực hiện c�
 
 ### Yêu Cầu
 
-Note: Nên sử dụng Python 3.6 trở lên. Cụ thể, phiên bản Python được sử dụng trong dự án này là Python 3.8
+Note: Nên sử dụng Python 3.6 trở lên. Cụ thể, phiên bản Python được sử dụng trong dự án này là **Python 3.8**
 
 ## Sử Dụng
 
@@ -80,10 +80,6 @@ Liệt kê thông tin liên hệ, như email hoặc các kênh truyền thông x
 
 - [Ngô Lê Xuân Phúc](https://github.com/xuanPhuc-1)
 - [Nguyễn Phương Nga](https://github.com/phuongnga28)
-
-## Lịch Sử Thay Đổi
-
-Ghi chú về các thay đổi lớn trong dự án, theo thời gian.
 
 ## Thư Viện Được Sử Dụng
 
