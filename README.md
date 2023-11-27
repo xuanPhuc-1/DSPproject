@@ -1,10 +1,64 @@
 # Tên Dự Án
 
-Mô tả ngắn về dự án và mục tiêu của nó.
+Báo cáo này được thực hiện với mục đích tìm hiểu, mô phỏng và đánh giá hiệu suất của bốn phương pháp chính trong việc xử lý nhiễu trong tín hiệu số. Cụ thể chúng ta sẽ tập trung vào: Biến đổi Fourier Nhanh (FFT), Bộ lọc thông thấp (LPF), Biến đổi Wavelet và Bộ phát hiện hoạt động giọng nói (Voice Activity Detector), từ đó hiểu rõ ưu điểm và hạn chế của từng phương pháp để xác định phương pháp nào là phù hợp nhất trong các tình huống cụ thể.
 
 ## Bắt Đầu
 
-Hướng dẫn cài đặt và chạy dự án trên máy cục bộ.
+Hướng dẫn cài đặt và chạy dự án trên máy cục bộ. Dưới đây là hướng dẫn cụ thể cho mỗi hệ điều hành:
+
+### Linux / macOS
+
+1. Clone dự án về máy của bạn:
+
+   ```bash
+   git clone https://github.com/xuanPhuc-1/DSPproject
+   ```
+
+2. Di chuyển vào thư mục dự án:
+
+   ```bash
+   cd DSPproject
+   ```
+
+3. Cài đặt dependencies:
+
+   ```bash
+   python3 -m pip install requirement.txt
+   ```
+
+4. Chạy dự án:
+
+   ```bash
+   python3 ./FinalMenuWindow.py
+   ```
+
+### Windows
+
+1. Clone dự án về máy của bạn:
+
+   ```powershell
+   git clone https://github.com/xuanPhuc-1/DSPproject
+   ```
+
+2. Di chuyển vào thư mục dự án:
+
+   ```powershell
+   cd DSPproject
+   ```
+
+3. Cài đặt dependencies:
+
+   ```powershell
+   pip install requirement.txt
+   ```
+
+4. Chạy dự án:
+
+   ```powershell
+   python FinalMenuWindow.py
+   ```
+
+Chắc chắn rằng bạn đã cài đặt Python và npm trước khi thực hiện các bước trên. Bạn có thể tìm thêm thông tin về cách cài đặt Python cho từng hệ điều hành tại [].
 
 ### Yêu Cầu
 
