@@ -72,7 +72,7 @@ Cách sử dụng đã nằm trong báo cáo của dự án.
 
 ## Liên Hệ
 
-Liệt kê thông tin liên hệ, như email hoặc các kênh truyền thông xã hội.
+qua email hoặc các kênh truyền thông xã hội.
 
 - Email: [Ngô Lê Xuân Phúc](mailto:20021568@vnu.edu.vn)
 
