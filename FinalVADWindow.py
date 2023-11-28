@@ -370,7 +370,7 @@ class VoiceActivityDetector:
         # get the text from output path
         outputfile = self.ui.outputPath.toPlainText()
         # print(outputfile)
-        self.save_only_speech_file(outputfile)
+        self.save_only_speech_file(self.ui.inputPath.toPlainText(), outputfile)
 
     def on_click_play(self):
         self.plot_the_output_file()
