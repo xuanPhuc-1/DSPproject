@@ -1,4 +1,4 @@
-# Tên Dự Án
+# MÔ PHỎNG ĐA PHƯƠNG PHÁP XỬ LÝ NHIỄU TRONG TÍN HIỆU SỐ
 
 Báo cáo này được thực hiện với mục đích tìm hiểu, mô phỏng và đánh giá hiệu suất của bốn phương pháp chính trong việc xử lý nhiễu trong tín hiệu số. Cụ thể chúng ta sẽ tập trung vào: Biến đổi Fourier Nhanh (FFT), Bộ lọc thông thấp (LPF), Biến đổi Wavelet và Bộ phát hiện hoạt động giọng nói (Voice Activity Detector), từ đó hiểu rõ ưu điểm và hạn chế của từng phương pháp để xác định phương pháp nào là phù hợp nhất trong các tình huống cụ thể.
 
@@ -36,25 +36,25 @@ Hướng dẫn cài đặt và chạy dự án trên máy cục bộ. Dưới đ
 
 1. Clone dự án về máy của bạn:
 
-   ```powershell
+   ```bash
    git clone https://github.com/xuanPhuc-1/DSPproject
    ```
 
 2. Di chuyển vào thư mục dự án:
 
-   ```powershell
+   ```bash
    cd DSPproject
    ```
 
 3. Cài đặt dependencies:
 
-   ```powershell
+   ```bash
    pip install requirement.txt
    ```
 
 4. Chạy dự án:
 
-   ```powershell
+   ```bash
    python FinalMenuWindow.py
    ```
 
